@@ -17,6 +17,6 @@ body {
   background-color: #f5f5f5;
 }
 .right-column {
-  overflow-y: scroll; /* has to be scroll, not auto */
+  overflow: auto; /* has to be scroll, not auto */
   -webkit-overflow-scrolling: touch;
 }
